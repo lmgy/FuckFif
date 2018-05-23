@@ -30,7 +30,7 @@ def change_detail(input_data, length):
         input_data[i]["ansDetail"] = str_pre + "#" + str_score
 
 
-data = input("请输入post提交的data：\n")
+data = input("请输入post提交的jsonobject：\n")
 data_json = json.loads(data.strip())
 length = len(data_json)
 change(data_json, length, "score", 86, 95)  # 自己设置分数区间
