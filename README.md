@@ -5,7 +5,7 @@
 ## 使用方法
 1. 使用IE浏览器，Fiddler（或者是其他抓包软件）
 2. 打开fif官网 https://www.fifedu.com/iplat/indexm?nextpage=bp/index
-3. 找到“教师任务”，并打开   
+3. 找到“教师任务”，并打开
 ![0](https://github.com/lmgy/FuckFif/blob/master/readme/0.jpg)
 4. 点击话筒🎙图标，当读到最后一段的时候，打开Fiddler，开启截断
 ![1](https://github.com/lmgy/FuckFif/blob/master/readme/1.jpg)
