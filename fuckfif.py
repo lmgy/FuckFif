@@ -33,10 +33,10 @@ def change_detail(input_data, length):
 data = input("请输入post提交的jsonobject：\n")
 data_json = json.loads(data.strip())
 length = len(data_json)
-change(data_json, length, "score", 85, 92)  # 自己设置分数区间
-change(data_json, length, "accuracy", 85, 92)
-change(data_json, length, "fluency", 90, 95)
-change(data_json, length, "complete", 90, 95)
+change(data_json, length, "score", 86, 94)  # 自己设置分数区间
+change(data_json, length, "accuracy", 95, 98)
+change(data_json, length, "fluency", 96, 100)
+change(data_json, length, "complete", 96, 100)
 change_detail(data_json, length)
 print(json.dumps(data_json))
 
